@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+body{
+    background-size:cover;  
+    background-image: url("assets/images/pexel.jpg");
+}
+.first{
+    background-size:cover;  
+    background-image: url("assets/images/pexel.jpg");
+}
+header{
+    background-color: green;
+    height: 7em;
+}
+#logo
+{
+    max-width: 90px;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.head-tag{
+  float:right;
+  margin-top: 25px;
+  margin-right: 50px;
+  
+  }
+
+.anchor{
+  float: right;
+  margin-top: 25px;
+}
+
+.head-tag a{
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  margin-right: 8px;
+  margin-top: 0%;
+  
+  
+}
+.head-tag a:hover{
+  background-color:white;
+  color: black;
+  transition: 0.2s ease-in-out;
+} 
+
+.head-tag h3{
+  margin-top: 1px;
+  margin-right: 17em;
+  font-size: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  
+}
+
+.login{
+    float:right;
+    border: 2px solid blue;
+    background-color:aliceblue;
+    height: 550px;
+    width: 450px;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 10px;
+    }
+
+.login h2{
+    text-align: center;
+}
+.login-cont
+ {
+    height: 1.5em;
+    width: 10px;
+    
+} 
+
+#login-button{
+    width: 100%;
+    height: 1.5em;
+    color: white;
+    background-color:dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 400px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border:#000000;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline:#000000;
+}
+
+hr {
+  border: 1px solid #000000;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  margin-right: 55px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  /* margin-left: 30px; */
+
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  width: 500px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* whole div of cancel and signup buttons */
+.clearfix{
+  /* border: 5px solid black; */
+  border-right: 50px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 100px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+form{
+    float: right;
+    width: 450px;
+    height: 700px;
+    padding:10px;
+    margin-top: 70px;
+    margin-right: 725px;
+    background-color: rgba(255,255,255,0.7) ;
+}
+
+
+
